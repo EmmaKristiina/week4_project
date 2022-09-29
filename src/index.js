@@ -37,9 +37,9 @@ function initialize() {
 
       for (let i = 0; i < dataJSON.length; i++) {
         const newClass = document.createElement("div");
-        newClass.setAttribute("id", "show-data");
+        newClass.setAttribute("class", "show-data");
         const newClass2 = document.createElement("div");
-        newClass2.setAttribute("id", "show-info");
+        newClass2.setAttribute("class", "show-info");
         const newTitle = document.createElement("h1");
         const newSummary = document.createElement("p1");
         const newPic = document.createElement("img");
