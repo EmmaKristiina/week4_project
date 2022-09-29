@@ -1,0 +1,47 @@
+/*Lähteinä: https://www.w3schools.com/cssref/css3_pr_box-shadow.asp
+https://www.w3schools.com/css/tryit.asp?filename=tryresponsive_mediaquery*/
+
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: #eceff1;
+}
+
+#show-data {
+  width: 100%;
+  background-color: #cfd8dc;
+  margin: 20px;
+  padding: 10px;
+  border-radius: 6px;
+  box-shadow: 10px 5px #888888;
+}
+
+#show-data h1 {
+  text-align: center;
+}
+
+#show-data img {
+  display: block;
+}
+
+#show-info {
+  width: 100%;
+}
+
+@media only screen and (max-width: 800px) {
+  #show-data {
+    display: flex;
+  }
+
+  #show-data img {
+    margin: auto;
+  }
+
+  #show-info {
+    padding: 10px;
+  }
+
+  #show-info p {
+    text-align: center;
+    padding: 10px;
+  }
+}
