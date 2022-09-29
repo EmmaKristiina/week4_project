@@ -6,7 +6,7 @@ body {
   background-color: #eceff1;
 }
 
-#show-data {
+.show-data {
   width: 100%;
   background-color: #cfd8dc;
   margin: 20px;
@@ -15,32 +15,32 @@ body {
   box-shadow: 10px 5px #888888;
 }
 
-#show-data h1 {
+.show-data h1 {
   text-align: center;
 }
 
-#show-data img {
+.show-data img {
   display: block;
 }
 
-#show-info {
+.show-info {
   width: 100%;
 }
 
 @media only screen and (max-width: 800px) {
-  #show-data {
+  .show-data {
     display: flex;
   }
 
-  #show-data img {
+  .show-data img {
     margin: auto;
   }
 
-  #show-info {
+  .show-info {
     padding: 10px;
   }
 
-  #show-info p {
+  .show-info p {
     text-align: center;
     padding: 10px;
   }
