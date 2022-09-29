@@ -54,7 +54,7 @@ function initialize() {
         newClass2.appendChild(newSummary);
         newClass.appendChild(newClass2);
 
-        if (dataJSON[i].show.image.medium) {
+        if (dataJSON[i].show.image) {
           const temp = dataJSON[i].show.image.medium;
           newPic.src = temp;
           newClass2.appendChild(newPic);
